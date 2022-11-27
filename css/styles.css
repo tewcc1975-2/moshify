@@ -826,7 +826,7 @@ a {
     }
 
     .block-showcase__image > img {
-        /* width: auto; */
+        width: auto;
         max-width: 700px;
     }
 }
@@ -835,6 +835,7 @@ a {
 
 .footer {
     background: #232323;
+    padding-top: 10rem;
 }
 
 .footer a {
@@ -907,4 +908,10 @@ a {
     .footer__heading {
         font-size: 1.6rem;
     }
+}
+
+/* Sign-up Callout */
+
+.callout-signup {
+    transform: translateY(5rem);
 }
